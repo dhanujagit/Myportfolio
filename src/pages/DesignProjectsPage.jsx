@@ -2,7 +2,51 @@ import { useEffect, useState } from 'react'
 import DesignGalleryItem from '../components/DesignGalleryItem'
 import RevealSection from '../components/RevealSection'
 import Seo from '../components/Seo'
-import { designProjects } from '../data/projects'
+
+const designProjects = [
+  {
+    id: 'design-1',
+    title: 'Aether Brand Identity',
+    description:
+      'Complete brand identity including logo system, typography hierarchy, and visual language.',
+    image: '/src/assets/Services.png',
+  },
+  {
+    id: 'design-2',
+    title: 'Nova UI Landing Concept',
+    description:
+      'A high-converting landing page concept with visual storytelling and bold product sections.',
+    image: '/src/assets/Services.png',
+  },
+  {
+    id: 'design-3',
+    title: 'Pulse Mobile App Screens',
+    description:
+      'A set of polished app screens focused on intuitive UX patterns and visual consistency.',
+    image: '/src/assets/Services.png',
+  },
+  {
+    id: 'design-4',
+    title: 'Vertex Social Campaign',
+    description:
+      'A social media campaign kit with post templates, story layouts, and ad variations.',
+    image: '/src/assets/Services.png',
+  },
+  {
+    id: 'design-5',
+    title: 'Studio Editorial Posters',
+    description:
+      'A poster series using expressive typography and layered compositions for a creative event.',
+    image: '/src/assets/Services.png',
+  },
+  {
+    id: 'design-6',
+    title: 'Orbit Product Campaign',
+    description:
+      'Digital campaign visuals for a product launch with cohesive hero imagery and motion-ready assets.',
+    image: '/src/assets/Services.png',
+  },
+]
 
 function DesignProjectsPage() {
   const [activeProject, setActiveProject] = useState(null)

@@ -2,10 +2,36 @@ import { Link } from 'react-router-dom'
 import RevealSection from '../components/RevealSection'
 import FeaturedProjectCard from '../components/FeaturedProjectCard'
 import Seo from '../components/Seo'
-import { featuredProjects } from '../data/projects'
 import myImg from '../assets/Myimg.jpg'
 
 const skills = ['React', 'JavaScript', 'UI/UX Design', 'Figma', 'Photoshop', 'Framer Motion']
+
+const featuredProjects = [
+  {
+    id: 'featured-1',
+    category: 'Development',
+    title: 'Insight Analytics Dashboard',
+    description: 'Data-first platform for product and growth teams.',
+    image: '/src/assets/Services.png',
+    link: '/development-projects',
+  },
+  {
+    id: 'featured-2',
+    category: 'Graphic Design',
+    title: 'Aether Brand Identity',
+    description: 'A complete visual identity system from concept to rollout.',
+    image: '/src/assets/Services.png',
+    link: '/graphic-design-projects',
+  },
+  {
+    id: 'featured-3',
+    category: 'Graphic Design',
+    title: 'Pulse Mobile App Screens',
+    description: 'Modern mobile interfaces focused on accessibility and flow.',
+    image: '/src/assets/Services.png',
+    link: '/graphic-design-projects',
+  },
+]
 
 function HomePage() {
   return (
