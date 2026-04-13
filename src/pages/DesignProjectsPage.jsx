@@ -6,46 +6,123 @@ import Seo from '../components/Seo'
 const designProjects = [
   {
     id: 'design-1',
-    title: 'Aether Brand Identity',
+    title: 'TUTE COVER PAGE DESIGN',
     description:
-      'Complete brand identity including logo system, typography hierarchy, and visual language.',
-    image: '/src/assets/Services.png',
+      'I did this design for a tuter whose name is desplayed in the design.This is a cover page design for a biology tute.',
+    image: '/src/assets/coverpage.png',
   },
   {
     id: 'design-2',
-    title: 'Nova UI Landing Concept',
+    title: 'TUTE COVER PAGE DESIGN',
     description:
-      'A high-converting landing page concept with visual storytelling and bold product sections.',
-    image: '/src/assets/Services.png',
+      'I did this design for a tuter whose name is desplayed in the design.This is a cover page design for a Biology tute.',
+    image: '/src/assets/coverpage2.png',
   },
   {
     id: 'design-3',
-    title: 'Pulse Mobile App Screens',
+    title: 'FLYER DESIGN',
     description:
-      'A set of polished app screens focused on intuitive UX patterns and visual consistency.',
-    image: '/src/assets/Services.png',
+      'This is a thank you flyer design for a company.',
+    image: '/src/assets/thank you random copy.png',
   },
   {
     id: 'design-4',
-    title: 'Vertex Social Campaign',
+    title: 'FLYER DESIGN',
     description:
-      'A social media campaign kit with post templates, story layouts, and ad variations.',
-    image: '/src/assets/Services.png',
+      'This is a winner annoucement flyer for a hackathon event.',
+    image: '/src/assets/winner annoucement.png',
   },
   {
     id: 'design-5',
-    title: 'Studio Editorial Posters',
+    title: 'FLYER DESIGN',
     description:
-      'A poster series using expressive typography and layered compositions for a creative event.',
-    image: '/src/assets/Services.png',
+      'This is a flyer design for a hackathon event.',
+    image: '/src/assets/top performers Announcement copy.png',
   },
   {
     id: 'design-6',
-    title: 'Orbit Product Campaign',
+    title: 'POSTER DESIGN',
     description:
-      'Digital campaign visuals for a product launch with cohesive hero imagery and motion-ready assets.',
-    image: '/src/assets/Services.png',
+      'This is a winner annoucement poster design for a creative event.',
+    image: '/src/assets/1strunnerup board.png',
   },
+  {
+    id: 'design-7',
+    title: 'POSTER DESIGN',
+    description:
+      'This is a winner annoucement poster design for a creative event.',
+    image: '/src/assets/2ndrunnerup board.png',
+  },
+  {
+    id: 'design-8',
+    title: 'POSTER DESIGN',
+    description:
+      'This is a winner annoucement poster design for a creative event.',
+    image: '/src/assets/winner board copy.png',
+  },
+  {
+    id: 'design-9',
+    title: 'FLYER DESIGN',
+    description:
+      'This is a member announcement flyer for MS Club.',
+    image: '/src/assets/2026 exom committee welcome flyer2 copy.png',
+  },
+  {
+    id: 'design-10',
+    title: 'FLYER DESIGN',
+    description:
+      'This is a member announcement flyer for MS Club.',
+    image: '/src/assets/2026 exom committee welcome flyer copy.png',
+  },
+  {
+    id: 'design-11',
+    title: 'FLYER DESIGN',
+    description:
+      'This is a member announcement flyer for MS Club.',
+    image: '/src/assets/2026 exom welcome flyer copy3.png',
+  },
+  {
+    id: 'design-12',
+    title: 'TUTION SOCIAL MEDIA POST',
+    description:
+      'This is a sample social media post design for a tution.',
+    image: '/src/assets/sample1.png',
+  },
+  {
+    id: 'design-13',
+    title: 'TUTION SOCIAL MEDIA POST',
+    description:
+      'This is a sample social media post design for a tution.',
+    image: '/src/assets/sample2.1.png',
+  },
+  {
+    id: 'design-14',
+    title: 'LOGO DESIGN',
+    description:
+      'This is a simple logo design I did for aphotographer.',
+    image: '/src/assets/ASHAN PHOTOGRAPHY3.png',
+  },
+  {
+    id: 'design-15',
+    title: 'SOCIAL MEDIA POST DESIGN',
+    description:
+      'This is a social media post design for an event.',
+    image: '/src/assets/Awurudu4.png',
+  },
+  {
+    id: 'design-16',
+    title: 'TUTION SOCIAL MEDIA POST',
+    description:
+      'This is a sample social media post design for a tution.',
+    image: '/src/assets/dancing.png',
+  },
+  {
+    id: 'design-17',
+    title: 'FLYER DESIGN',
+    description:
+      'This is a flyer design for a club.',
+    image: '/src/assets/taekwondo pply post copy.png',
+  }
 ]
 
 function DesignProjectsPage() {
