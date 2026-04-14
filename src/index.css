@@ -23,6 +23,10 @@ html {
   scroll-behavior: smooth;
 }
 
+html.sidebar-open {
+  overflow: hidden;
+}
+
 body {
   margin: 0;
   font-family: Inter, Segoe UI, Roboto, Arial, sans-serif;
@@ -70,7 +74,7 @@ main {
   border-bottom: 1px solid var(--border);
 }
 
-.nav-container {
+.desktop-nav-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -102,6 +106,103 @@ main {
 .nav-links a.active {
   color: var(--text);
   background: var(--bg-soft);
+}
+
+/* Hamburger menu */
+.hamburger {
+  position: absolute;
+  left: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  display: none;
+  background: none;
+  border: none;
+  margin-top: 2rem;
+  color: var(--text);
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+@keyframes slideInLeft {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+/* Sidebar */
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 250px;
+  height: 100vh;
+  background: rgba(26, 34, 63, 1);
+  backdrop-filter: blur(12px);
+  z-index: 200;
+  padding: 1rem;
+  box-shadow: var(--shadow);
+  animation: slideInLeft 0.3s ease-out forwards;
+}
+
+.close-btn {
+  background: none;
+  border: none;
+  color: var(--text);
+  font-size: 1.5rem;
+  cursor: pointer;
+  float: right;
+}
+
+.sidebar-brand {
+  font-size: 1.1rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  margin-bottom: 1rem;
+  display: block;
+  color: var(--text);
+  transition: var(--transition);
+}
+
+.sidebar-brand:hover {
+  color: var(--accent);
+}
+
+.sidebar-links {
+  list-style: none;
+  padding: 0;
+  margin: 2rem 0 0;
+}
+
+.sidebar-links li {
+  margin: 1rem 0;
+}
+
+.sidebar-links a {
+  display: block;
+  padding: 0.5rem;
+  color: var(--text-muted);
+  transition: var(--transition);
+}
+
+.sidebar-links a:hover,
+.sidebar-links a.active {
+  color: var(--text);
+  background: var(--bg-soft);
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+  .desktop-nav-container {
+    display: none;
+  }
+  .hamburger {
+    display: block;
+  }
 }
 
 .section-spacing {
