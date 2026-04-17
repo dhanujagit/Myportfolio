@@ -9,7 +9,7 @@ const developmentProjects = [
     description:
       'A scalable analytics dashboard with role-based views, KPI widgets, and exportable business reports.',
     techStack: ['React', 'TypeScript', 'Chart.js', 'Firebase'],
-    image: '/src/assets/Services.png',
+    image: '/assets/services.png',
     codeUrl: '#',
     demoUrl: '#',
   },
@@ -19,7 +19,7 @@ const developmentProjects = [
     description:
       'A collaborative task management app with drag-and-drop boards, custom workflows, and live notifications.',
     techStack: ['React', 'JavaScript', 'Node.js', 'Socket.IO'],
-    image: '/src/assets/Services.png',
+    image: '/assets/services.png',
     codeUrl: '#',
     demoUrl: '#',
   },
@@ -29,7 +29,7 @@ const developmentProjects = [
     description:
       'A modern e-commerce experience with product filtering, secure checkout simulation, and dynamic recommendations.',
     techStack: ['React', 'Redux', 'Stripe API', 'Sass'],
-    image: '/src/assets/Services.png',
+    image: '/assets/services.png',
     codeUrl: '#',
     demoUrl: '#',
   },
@@ -39,7 +39,7 @@ const developmentProjects = [
     description:
       'An online learning interface featuring lesson tracking, progress analytics, and certificate generation.',
     techStack: ['React', 'Vite', 'MongoDB', 'Express'],
-    image: '/src/assets/Services.png',
+    image: '/assets/services.png',
     codeUrl: '#',
     demoUrl: '#',
   },

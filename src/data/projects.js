@@ -5,7 +5,7 @@ export const developmentProjects = [
     description:
       'A scalable analytics dashboard with role-based views, KPI widgets, and exportable business reports.',
     techStack: ['React', 'TypeScript', 'Chart.js', 'Firebase'],
-    image: '/src/assets/Services.png',
+    image: '/assets/services.png',
     codeUrl: '#',
     demoUrl: '#',
     category: 'Development',
@@ -17,7 +17,7 @@ export const developmentProjects = [
     description:
       'A collaborative task management app with drag-and-drop boards, custom workflows, and live notifications.',
     techStack: ['React', 'JavaScript', 'Node.js', 'Socket.IO'],
-    image: '/src/assets/Services.png',
+    image: '/assets/services.png',
     codeUrl: '#',
     demoUrl: '#',
     category: 'Development',
@@ -29,7 +29,7 @@ export const developmentProjects = [
     description:
       'A modern e-commerce experience with product filtering, secure checkout simulation, and dynamic recommendations.',
     techStack: ['React', 'Redux', 'Stripe API', 'Sass'],
-    image: '/src/assets/Services.png',
+    image: '/assets/services.png',
     codeUrl: '#',
     demoUrl: '#',
     category: 'Development',
@@ -41,7 +41,7 @@ export const developmentProjects = [
     description:
       'An online learning interface featuring lesson tracking, progress analytics, and certificate generation.',
     techStack: ['React', 'Vite', 'MongoDB', 'Express'],
-    image: '/src/assets/Services.png',
+    image: '/assets/services.png',
     codeUrl: '#',
     demoUrl: '#',
     category: 'Development',
@@ -55,7 +55,7 @@ export const designProjects = [
     title: 'TUTE COVER PAGE DESIGN',
     description:
       'I did this design for a tuter whose name is desplayed in the design.This is a cover page design for a biology tute.',
-    image: '/src/assets/coverpage.png',
+    image: '/assets/coverpage.png',
     category: 'Graphic Design',
     link: '/graphic-design-projects',
   },
@@ -64,7 +64,7 @@ export const designProjects = [
     title: 'TUTE COVER PAGE DESIGN',
     description:
       'I did this design for a tuter whose name is desplayed in the design.This is a cover page design for a Biology tute.',
-    image: '/src/assets/coverpage2.png',
+    image: '/assets/coverpage2.png',
     category: 'Graphic Design',
     link: '/graphic-design-projects',
   },
@@ -73,7 +73,7 @@ export const designProjects = [
     title: 'FLYER DESIGN',
     description:
       'This is a thank you flyer design for a company.',
-    image: '/src/assets/thank you random copy.png',
+    image: '/assets/thank-you-random-copy.png',
     category: 'Graphic Design',
     link: '/graphic-design-projects',
   },
@@ -82,7 +82,7 @@ export const designProjects = [
     title: 'FLYER DESIGN',
     description:
       'This is a winner annoucement flyer for a hackathon event.',
-    image: '/src/assets/winner annoucement.png',
+    image: '/assets/winner-annoucement.png',
     category: 'Graphic Design',
     link: '/graphic-design-projects',
   },
@@ -91,7 +91,7 @@ export const designProjects = [
     title: 'FLYER DESIGN',
     description:
       'This is a flyer design for a hackathon event.',
-    image: '/src/assets/top performers Announcement copy.png',
+    image: '/assets/top-performers-announcement-copy.png',
     category: 'Graphic Design',
     link: '/graphic-design-projects',
   },
@@ -100,7 +100,7 @@ export const designProjects = [
     title: 'POSTER DESIGN',
     description:
       'This is a winner annoucement poster design for a creative event.',
-    image: '/src/assets/1strunnerup board.png',
+    image: '/assets/1st-runnerup-board.png',
     category: 'Graphic Design',
     link: '/graphic-design-projects',
   },
@@ -109,7 +109,7 @@ export const designProjects = [
     title: 'POSTER DESIGN',
     description:
       'This is a winner annoucement poster design for a creative event.',
-    image: '/src/assets/2ndrunnerup board.png',
+    image: '/assets/2nd-runnerup-board.png',
     category: 'Graphic Design',
     link: '/graphic-design-projects',
   },
@@ -118,7 +118,7 @@ export const designProjects = [
     title: 'POSTER DESIGN',
     description:
       'This is a winner annoucement poster design for a creative event.',
-    image: '/src/assets/winner board copy.png',
+    image: '/assets/winner-board-copy.png',
     category: 'Graphic Design',
     link: '/graphic-design-projects',
   },
@@ -127,7 +127,7 @@ export const designProjects = [
     title: 'FLYER DESIGN',
     description:
       'This is a member announcement flyer for MS Club.',
-    image: '/src/assets/2026 exom committee welcome flyer2 copy.png',
+    image: '/assets/2026-exom-committee-welcome-flyer2-copy.png',
     category: 'Graphic Design',
     link: '/graphic-design-projects',
   },
@@ -136,7 +136,7 @@ export const designProjects = [
     title: 'FLYER DESIGN',
     description:
       'This is a member announcement flyer for MS Club.',
-    image: '/src/assets/2026 exom committee welcome flyer copy.png',
+    image: '/assets/2026-exom-committee-welcome-flyer-copy.png',
     category: 'Graphic Design',
     link: '/graphic-design-projects',
   },
@@ -145,7 +145,7 @@ export const designProjects = [
     title: 'FLYER DESIGN',
     description:
       'This is a member announcement flyer for MS Club.',
-    image: '/src/assets/2026 exom welcome flyer copy3.png',
+    image: '/assets/2026-exom-welcome-flyer-copy3.png',
     category: 'Graphic Design',
     link: '/graphic-design-projects',
   },
@@ -154,7 +154,7 @@ export const designProjects = [
     title: 'TUTION SOCIAL MEDIA POST',
     description:
       'This is a sample social media post design for a tution.',
-    image: '/src/assets/sample1.png',
+    image: '/assets/sample1.png',
     category: 'Graphic Design',
     link: '/graphic-design-projects',
   },
@@ -163,7 +163,7 @@ export const designProjects = [
     title: 'TUTION SOCIAL MEDIA POST',
     description:
       'This is a sample social media post design for a tution.',
-    image: '/src/assets/sample2.1.png',
+    image: '/assets/sample2.1.png',
     category: 'Graphic Design',
     link: '/graphic-design-projects',
   },
@@ -172,7 +172,7 @@ export const designProjects = [
     title: 'LOGO DESIGN',
     description:
       'This is a simple logo design I did for a photographer.',
-    image: '/src/assets/ASHAN PHOTOGRAPHY3.png',
+    image: '/assets/ashan-photography3.png',
     category: 'Graphic Design',
     link: '/graphic-design-projects',
   },
@@ -181,7 +181,7 @@ export const designProjects = [
     title: 'SOCIAL MEDIA POST DESIGN',
     description:
       'This is a social media post design for an event.',
-    image: '/src/assets/Awurudu4.png',
+    image: '/assets/awurudu4.png',
     category: 'Graphic Design',
     link: '/graphic-design-projects',
   },
@@ -190,7 +190,7 @@ export const designProjects = [
     title: 'TUTION SOCIAL MEDIA POST',
     description:
       'This is a sample social media post design for a tution.',
-    image: '/src/assets/dancing.png',
+    image: '/assets/dancing.png',
     category: 'Graphic Design',
     link: '/graphic-design-projects',
   },
@@ -199,7 +199,7 @@ export const designProjects = [
     title: 'FLYER DESIGN',
     description:
       'This is a flyer design for a club.',
-    image: '/src/assets/taekwondo pply post copy.png',
+    image: '/assets/taekwondo-pply-post-copy.png',
     category: 'Graphic Design',
     link: '/graphic-design-projects',
   },
