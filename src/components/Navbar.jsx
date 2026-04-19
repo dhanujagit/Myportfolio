@@ -3,8 +3,8 @@ import { useState, useEffect } from 'react'
 
 const navItems = [
   // { path: '/', label: 'Home', end: true },
-  { path: '/development-projects', label: 'Development' },
-  { path: '/graphic-design-projects', label: 'Graphic Design' },
+  { path: '/development-projects', label: 'Dev' },
+  { path: '/graphic-design-projects', label: 'Designs' },
 ]
 
 function Navbar() {

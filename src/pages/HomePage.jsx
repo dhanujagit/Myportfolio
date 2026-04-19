@@ -6,7 +6,7 @@ import Seo from '../components/Seo'
 import { getRandomFeaturedProjects } from '../data/projects'
 import myImg from '../assets/Myimg.jpg'
 
-const skills = ['React', 'JavaScript', 'UI/UX Design', 'Figma', 'Photoshop', 'Framer Motion']
+const skills = ['React', 'JavaScript', 'UI/UX Design', 'Figma', 'Photoshop', 'CAPCUT']
 
 function HomePage() {
   const [featuredProjects] = useState(() => getRandomFeaturedProjects(3))
@@ -25,8 +25,7 @@ function HomePage() {
             <h1>DHANUJA KANDEGAMA</h1>
             <p className="tagline">Creative Developer & Designer</p>
             <p className="hero-description">
-              I design and build delightful digital products that combine elegant visuals with
-              high-performance front-end development.
+             Creative graphic designer and passionate developer blending strong visuals with smart functionality. I create eye catching branding , posters , and digital designs while also building smooth , modern websites that bring ideas to life.
             </p>
             <div className="hero-actions">
               <div className="hero-main-actions">
@@ -35,7 +34,7 @@ function HomePage() {
                   className="btn-primary hero-stream-btn"
                   aria-label="View graphic design projects"
                 >
-                  Design
+                  Designs
                 </Link>
                 <Link
                   to="/development-projects"
@@ -77,8 +76,12 @@ function HomePage() {
           <RevealSection>
             <h2>About Me</h2>
             <p className="section-copy">
-              Passionate about shaping thoughtful user experiences, I blend visual storytelling and
-              modern frontend architecture to deliver engaging and accessible products.
+              I’m a creative professional specializing in graphic design and web development, focused 
+              on building visually compelling and highly functional digital experiences. With a strong eye 
+              for design and a passion for clean development, I create branding, visual content, and modern 
+              websites that help ideas stand out and perform effectively. My goal is to combine creativity and 
+              technology to deliver impactful results with a professional standard.
+
             </p>
           </RevealSection>
         </div>
@@ -121,8 +124,8 @@ function HomePage() {
             <p className="section-copy">
               Open for collaborations, freelance projects, and product design opportunities.
             </p>
-            <a href="mailto:hello@example.com" className="btn-primary">
-              hello@example.com
+            <a href="https://wa.me/+94769727678" className="btn-primary whtsap_btn" target="_blank" rel="noopener noreferrer">
+              Contact me on WhatsApp
             </a>
           </RevealSection>
         </div>
