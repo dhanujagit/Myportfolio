@@ -145,7 +145,7 @@ function DesignProjectsPage() {
       <Seo
         title="Graphic Design Projects | Dhanuja Kandegama"
         description="Browse graphic design projects by Dhanuja Kandegama including branding, product visuals, and campaign concepts."
-        keywords="Dhanuja Kandegama graphic design projects, branding portfolio, UI visual design"
+        keywords="Dhanuja Kandegama graphic design projects, branding portfolio, UI visual design, flyers"
       />
       <div className="container">
         <RevealSection>
