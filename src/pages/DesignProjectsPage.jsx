@@ -150,10 +150,10 @@ function DesignProjectsPage() {
       <div className="container">
         <RevealSection>
           <p className="eyebrow">Graphic Design Projects</p>
-          <h1 className="page-heading">Visual Stories With Impact</h1>
+          <h1 className="page-heading">DESIGN PORTFOLIO</h1>
           <p className="section-copy">
-            A curated gallery of brand, campaign, and product design concepts with strong visual
-            language and clear communication.
+            Creating visually impactful designs that communicate ideas with clarity and creativity. From branding and social media visuals to posters and marketing materials, 
+            each project is crafted to leave a strong and lasting impression.
           </p>
         </RevealSection>
 
