@@ -29,11 +29,35 @@ function HomePage() {
               high-performance front-end development.
             </p>
             <div className="hero-actions">
-              <Link to="/development-projects" className="btn-primary" aria-label="View projects">
-                View Projects
-              </Link>
-              <a href="#contact" className="btn-secondary" aria-label="Contact Dhanuja Kandegama">
-                Contact
+              <div className="hero-main-actions">
+                <Link
+                  to="/graphic-design-projects"
+                  className="btn-primary hero-stream-btn"
+                  aria-label="View graphic design projects"
+                >
+                  Design
+                </Link>
+                <Link
+                  to="/development-projects"
+                  className="btn-primary hero-stream-btn"
+                  aria-label="View development projects"
+                >
+                  Dev
+                </Link>
+              </div>
+              <a href="#contact" className="hero-contact-btn" aria-label="Contact Dhanuja Kandegama">
+                <svg
+                  className="hero-contact-icon"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                  aria-hidden="true"
+                >
+                  <path
+                    d="M6.62 10.79C8.06 13.62 10.38 15.94 13.21 17.38L15.41 15.18C15.68 14.91 16.08 14.82 16.43 14.93C17.55 15.3 18.75 15.5 20 15.5C20.55 15.5 21 15.95 21 16.5V20C21 20.55 20.55 21 20 21C10.61 21 3 13.39 3 4C3 3.45 3.45 3 4 3H7.5C8.05 3 8.5 3.45 8.5 4C8.5 5.25 8.7 6.45 9.07 7.57C9.18 7.92 9.09 8.32 8.82 8.59L6.62 10.79Z"
+                    fill="currentColor"
+                  />
+                </svg>
+                <span className="hero-contact-text">Contact</span>
               </a>
             </div>
           </RevealSection>
