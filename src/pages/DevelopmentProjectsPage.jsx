@@ -56,10 +56,10 @@ function DevelopmentProjectsPage() {
       <div className="container">
         <RevealSection>
           <p className="eyebrow">Development Projects</p>
-          <h1 className="page-heading">Code, Logic, and Product Thinking</h1>
+          <h1 className="page-heading">DIGITAL BUILDS</h1>
           <p className="section-copy">
-            Selected frontend and full-stack projects that focus on scalability, usability, and
-            modern web standards.
+            Selected frontend and full-stack projects focused on scalability, usability, and modern web standards. Built with clean architecture, responsive design, and efficient performance to deliver reliable digital experiences across devices and platforms.
+
           </p>
         </RevealSection>
 

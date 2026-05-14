@@ -122,6 +122,13 @@ const designProjects = [
     description:
       'This is a flyer design for a club.',
     image: '/assets/taekwondo-pply-post-copy.png',
+  },
+  {
+    id: 'design-18',
+    title: 'SOCIAL MEDIA POST',
+    description:
+      'Huru Star contender Abhilash Maheemas social media post.',
+    image: '/assets/hirustartpost.png',
   }
 ]
 
@@ -145,15 +152,15 @@ function DesignProjectsPage() {
       <Seo
         title="Graphic Design Projects | Dhanuja Kandegama"
         description="Browse graphic design projects by Dhanuja Kandegama including branding, product visuals, and campaign concepts."
-        keywords="Dhanuja Kandegama graphic design projects, branding portfolio, UI visual design"
+        keywords="Dhanuja Kandegama graphic design projects, branding portfolio, UI visual design, flyers"
       />
       <div className="container">
         <RevealSection>
           <p className="eyebrow">Graphic Design Projects</p>
-          <h1 className="page-heading">Visual Stories With Impact</h1>
+          <h1 className="page-heading">DESIGN PORTFOLIO</h1>
           <p className="section-copy">
-            A curated gallery of brand, campaign, and product design concepts with strong visual
-            language and clear communication.
+            Creating visually impactful designs that communicate ideas with clarity and creativity. From branding and social media visuals to posters and marketing materials, 
+            each project is crafted to leave a strong and lasting impression.
           </p>
         </RevealSection>
 
