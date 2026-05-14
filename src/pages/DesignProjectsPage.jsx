@@ -122,6 +122,13 @@ const designProjects = [
     description:
       'This is a flyer design for a club.',
     image: '/assets/taekwondo-pply-post-copy.png',
+  },
+  {
+    id: 'design-18',
+    title: 'SOCIAL MEDIA POST',
+    description:
+      'Huru Star contender Abhilash Maheemas social media post.',
+    image: '/assets/hirustartpost.png',
   }
 ]
 
